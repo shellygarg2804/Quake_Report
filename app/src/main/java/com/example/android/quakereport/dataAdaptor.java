@@ -21,7 +21,7 @@ import java.util.Date;
 public class dataAdaptor extends ArrayAdapter {
 
 
-    public dataAdaptor(@NonNull Context context, ArrayList<data> earthquake, int background) {
+    public dataAdaptor(@NonNull EarthquakeActivity context, ArrayList<data> earthquake, int background) {
         super(context, 0, earthquake);
     }
 
